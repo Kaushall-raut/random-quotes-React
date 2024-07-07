@@ -1,0 +1,55 @@
+.container {
+  width: 150px;
+  height: 90px;
+  background-color: aqua;
+  position: relative;
+  position: absolute;
+  top: 2rem;
+  left: 26rem;
+  border-radius: 10rem;
+  /* translate: 50rem; */
+}
+.round {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.on {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: yellow;
+  transform: translateX(65px);
+  left: 0;
+  font-size: 2rem;
+}
+
+.on:hover {
+  cursor: grab;
+}
+.off:hover {
+  cursor: grab;
+}
+.off {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: yellow;
+  transform: translateX(0px);
+  left: 0;
+  font-size: 2rem;
+}
+span {
+  font-size: 2rem;
+  font-weight: 400;
+  position: absolute;
+  top: 4rem;
+  left: 15rem;
+}

@@ -1,0 +1,30 @@
+#Parent {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 10rem;
+  height: 32rem;
+  width: 32rem;
+  display: grid;
+  position: relative;
+  grid-template-rows: 8rem 9rem 11rem;
+}
+h3 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+img {
+  height: 4rem;
+  top: 9.5rem;
+  left: 57rem;
+  position: fixed;
+  animation: rotates 2s linear infinite;
+}
+@keyframes rotates {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
